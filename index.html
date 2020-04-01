@@ -11,6 +11,8 @@
         integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
     <link href="./study.ico" rel="shortcut icon" type="image/x-icon" />
+    <script src="switch_on.js"></script>
+    <script src="scroll.js"></script>
 </head>
 
 <body>
@@ -197,8 +199,38 @@
                             <li><a onclick="bomFunction6()">ระดับพลัง</a></li>
                         </ul>
                     </nav>
-
                     <div class="row">
+                        <div class="columns">
+                            <div class="column">
+                                <button class="button is-danger is-fullwidth" id="d1">หานเซิ่น</button>
+                            </div>
+                            <div class="column">
+                                <button class="button is-danger is-fullwidth" id="d2">ซินเสวียน</button>
+                            </div>
+                            <div class="column">
+                                <button class="button is-danger is-fullwidth" id="d3">เซินเทียนจื่อ</button>
+                            </div>
+                            <div class="column">
+                                <button class="button is-danger is-fullwidth" id="d4">หลัวซูหลาน</button>
+                            </div>
+                        </div>
+                        <div class="columns">
+                            <div class="column">
+                                <button class="button is-danger is-fullwidth" id="d5">หานเหยี่ยน</button>
+                            </div>
+                            <div class="column">
+                                <button class="button is-danger is-fullwidth" id="d6">เฉวียนเกอ</button>
+                            </div>
+                            <div class="column">
+                                <button class="button is-danger is-fullwidth">รออัพเดท</button>
+                            </div>
+                            <div class="column">
+                                <button class="button is-danger is-fullwidth">รออัพเดท</button>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row s1" id="s1" style="display: none;">
                         <div class="tile is-ancestor">
                             <div class="tile is-4 is-vertical is-parent">
                                 <div class="tile is-child box">
@@ -244,10 +276,10 @@
                                 </div>
                             </div>
                         </div>
+                        <hr>
                     </div>
-                    <hr>
                     <!-- End หานเซิ่น -->
-                    <div class="row">
+                    <div class="row s2" id="s2" style="display: none;">
                         <div class="tile is-ancestor">
                             <div class="tile is-4 is-vertical is-parent">
                                 <div class="tile is-child box">
@@ -276,10 +308,10 @@
                                 </div>
                             </div>
                         </div>
+                        <hr>
                     </div>
-                    <hr>
                     <!-- End ซินเสวียน -->
-                    <div class="row">
+                    <div class="row s3" id="s3" style="display: none;">
                         <div class="tile is-ancestor">
                             <div class="tile is-4 is-vertical is-parent">
                                 <div class="tile is-child box">
@@ -310,10 +342,10 @@
                                 </div>
                             </div>
                         </div>
+                        <hr>
                     </div>
-                    <hr>
                     <!-- End ซินเทียนจื่อ -->
-                    <div class="row">
+                    <div class="row s4" id="s4" style="display: none;">
                         <div class="tile is-ancestor">
                             <div class="tile is-4 is-vertical is-parent">
                                 <div class="tile is-child box">
@@ -344,10 +376,10 @@
                                 </div>
                             </div>
                         </div>
+                        <hr>
                     </div>
-                    <hr>
                     <!-- End หลัวซูหลาน -->
-                    <div class="row">
+                    <div class="row s5" id="s5" style="display: none;">
                         <div class="tile is-ancestor">
                             <div class="tile is-4 is-vertical is-parent">
                                 <div class="tile is-child box">
@@ -377,10 +409,10 @@
                                 </div>
                             </div>
                         </div>
+                        <hr>
                     </div>
-                    <hr>
                     <!-- End หานเหยี่ยน -->
-                    <div class="row">
+                    <div class="row s6" id="s6" style="display: none;">
                         <div class="tile is-ancestor">
                             <div class="tile is-4 is-vertical is-parent">
                                 <div class="tile is-child box">
@@ -408,8 +440,8 @@
                                 </div>
                             </div>
                         </div>
+                        <hr>
                     </div>
-                    <hr>
                     <!-- End เฉวียนเกอ -->
 
 
@@ -435,7 +467,7 @@
                                     แผนผังตระกูล
                                 </h1>
                                 <h2 class="subtitle">
-                                    ครอบครัวตระกูลต่าง ๆ 
+                                    ครอบครัวตระกูลต่าง ๆ
                                 </h2>
                             </div>
                         </div>
@@ -690,86 +722,8 @@
     });
 </script>
 
-<script>
 
-    // When the user clicks on the button, scroll to the top of the document
-    function topFunction() {
-        $('div.div2').click(function () {
-            $('html, body').animate({
-                scrollTop: $("div.div0").offset().top
-            }, 200)
-        });
 
-    }
-    function bomFunction() {
-        $('div.div0').click(function () {
-            $('html, body').animate({
-                scrollTop: $("div.div2").offset().top
-            }, 200)
-        });
-
-    }
-    function bomFunction2() {
-        $('div.div2').click(function () {
-            $('html, body').animate({
-                scrollTop: $("div.div2").offset().top
-            }, 200)
-        });
-    }
-    function bomFunction3() {
-        $('div.div2').click(function () {
-            $('html, body').animate({
-                scrollTop: $("div.div4").offset().top
-            }, 200)
-        });
-    }
-    function bomFunction4() {
-        $('div.div2').click(function () {
-            $('html, body').animate({
-                scrollTop: $("div.div5").offset().top
-            }, 200)
-        });
-    }
-    function bomFunction5() {
-        $('div.div2').click(function () {
-            $('html, body').animate({
-                scrollTop: $("div.div6").offset().top
-            }, 200)
-        });
-    }
-    function bomFunction6() {
-        $('div.div2').click(function () {
-            $('html, body').animate({
-                scrollTop: $("div.div7").offset().top
-            }, 200)
-        });
-    }
-</script>
-
-<!-- scrollbar styling -->
-<style scoped>
-    body::-webkit-scrollbar {
-        background-color: #fff;
-        width: 16px
-    }
-
-    /* background of the scrollbar except button or resizer */
-    body::-webkit-scrollbar-track {
-        background-color: #fff
-    }
-
-    /* scrollbar itself */
-    body::-webkit-scrollbar-thumb {
-        background-color: #242627;
-        border-radius: 16px;
-        border: 4px solid #fff
-    }
-
-    /* set button(top and bottom of the scrollbar) */
-    body::-webkit-scrollbar-button {
-        display: none
-    }
-</style>
 
 <!-- Sweetalert2 -->
 <script>
