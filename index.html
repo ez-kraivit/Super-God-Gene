@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super God Gene</title>
+    <link rel="stylesheet" href="css//bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+    <link href="./study.ico" rel="shortcut icon" type="image/x-icon" />
+</head>
+
+<body>
+    <section class="hero is-dark is-fullheight">
+        <!-- Hero head: will stick at the top -->
+        <div class="hero-head">
+            <nav class="navbar">
+                <div class="container">
+                    <div class="navbar-brand">
+                        <a class="navbar-item">
+                            <img src="logo.png" alt="Logo">
+                        </a>
+                        <span class="navbar-burger burger" data-target="navbarMenuHeroA">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </span>
+                    </div>
+
+                    <div id="navbarMenuHeroA" class="navbar-menu div0">
+                        <div class="navbar-end">
+                            <a class="navbar-item is-active">
+                                หน้าแรก
+                            </a>
+                            <a class="navbar-item" onclick="bomFunction()">
+                                แนะนำตัวละคร
+                            </a>
+                            <a class="navbar-item" href="https://www.thai-novel.com/2018/01/10/ตอนที่-1-super-gene/"
+                                target="_blank">
+                                อ่านนิยาย
+                            </a>
+                            <span class="navbar-item">
+                                <a class="button is-danger is-inverted" href="https://www.youtube.com/c/คนเหงา"
+                                    target="_blank">
+                                    <span class="icon">
+                                        <i class="fab fa-youtube"></i>
+                                    </span>
+                                    <span>Youtube</span>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+
+                </div>
+            </nav>
+        </div>
+
+        <!-- Hero content: will be in the middle -->
+        <div class="hero-body">
+            <div class="container has-text-centered">
+                <!-- <h1 class="title">
+              Title
+            </h1>
+            <h2 class="subtitle">
+              Subtitle
+            </h2> -->
+                <div class="div1">
+                    <div class="tile is-ancestor">
+                        <div class="tile is-vertical is-8">
+                            <div class="tile">
+                                <div class="tile is-parent is-vertical">
+                                    <article class="tile is-child notification is-primary">
+                                        <p class="title">คืออะไร ?</p>
+                                        <p class="subtitle" style="text-align: justify;">นิยายจีน ที่มีตัวละครเอกแสนซน
+                                            และมีไหวพริบที่ดี โดยพระเอกของเราค่อนข้างเป็นคนฉลาด
+                                            แต่เนื่องจากครอบครัวเป็นคนยากจน ทำให้ชีวิตต้องดิ้นรน
+                                            ในโลกที่ไม่ได้มีแค่พันธุ์กรรมของมนุษย์แต่มีหลากหลายเผ่าพันธุ์
+                                            ที่ทำสงครามเพื่ออยู่จุดสูงสุด</p>
+                                    </article>
+                                    <article class="tile is-child notification is-primary">
+                                        <p class="title">สนุกยังไง ?</p>
+                                        <p class="subtitle">
+                                            เนื้อเรื่องจะค่อนข้างออกไปแนวการฝึกฝนเก็บประสบการณ์ตามหาปมต่าง ๆ
+                                            รวมถึงมิตรภาพระหว่างสายพันธุ์อื่นโดยรวม ๆ
+                                            จะเน้นไปเรื่องของปมตัวละครละมีตัวละครที่มากมายรวมทั้งตัวประกอบที่คร่าว ๆ 200
+                                            กว่า ตัวประกอบ</p>
+                                    </article>
+                                </div>
+                                <div class="tile is-parent">
+                                    <article class="tile is-child notification is-danger">
+                                        <p class="title">ภาพประกอบ</p>
+                                        <p class="subtitle">Super God Gene</p>
+                                        <figure class="image is-4by3">
+                                            <img src="https://kbimages1-a.akamaihd.net/174970b1-7e87-4009-94c6-d5d3c257e3b9/353/569/90/False/NbupTrNePjKb8t3h3NDtmA.jpg"
+                                                height="480" width="680">
+                                        </figure>
+                                    </article>
+                                </div>
+                            </div>
+                            <div class="tile is-parent">
+                                <article class="tile is-child notification is-success">
+                                    <p class="title">ติดตามนิยายได้จากที่ไหนบ้าง (สำหรับผู้แปล)</p>
+                                    <p class="subtitle">
+                                        Thai-novel : <a target="_blank"
+                                            href="https://www.thai-novel.com/นิยาย/นิยายจีนแปลไทย/super-god-gene/"
+                                            target="_blank">คลิก</a>
+                                        <br>
+                                        Facebook : <a target="_blank" href="https://www.facebook.com/SuperGodGene/"
+                                            target="_blank">คลิก</a>
+                                    </p>
+                                    <div class="content">
+                                        <!-- Content -->
+
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                        <div class="tile is-parent">
+                            <article class="tile is-child notification is-primary">
+                                <div class="content">
+                                    <p class="title">Why is Create Website</p>
+                                    <p class="subtitle">ทำไมต้องสร้างเว็ปไซต์นี้ขึ้นมา</p>
+                                    <hr>
+                                    <p class="subtitle">เนื่องจากหลาย ๆ
+                                        คนไม่สามารถจดจำตัวละครในเนื้อเรื่องและรายละเอียดในตัวละครได้หมด
+                                        แอดมินเลยอยากแบ่งปันแผงผังตัวละครโดยเป็นเว็ปไซต์ เพื่อจะได้
+                                        จดจำได้ง่ายและสามารถเสพนิยายได้อย่างมีมุมมองที่ดี
+                                        การเสพนิยายที่ดีควรเสพทั้งตัวละครที่เป็นตัวประกอบ
+                                        จุดมุ่งหมายและก็บทการนำของเรื่องว่าจะไปในทิศทางไหน
+                                        โดยสำหรับแอดมินแล้วเห็นว่าการแนะนำจากปากอาจจะทำให้ลืมและไม่สามารถจำจดได้
+                                        แอดมินเลยจะทิ้งอักษรไว้ในตัวหนังสือเพื่อจะได้จดใจไปพร้อม ๆ
+                                        กันหากชอบและเห็นว่าทำมาเพื่อนิยายเรื่องนี้โดยเฉพาะอยากสนับสนุนและติดตามก็สามารถคลิกเข้าไปที่ขวามือบนสุด
+                                        แอดมินเป็นคนพูดค่อนข้างเร็ว
+                                        หากไม่ถนัดการฟังที่รวดเร็วก็สามารถมาอ่านและเสพมุมมองที่นี้ได้ </p>
+                                    <div class="content">
+                                        <!-- Content -->
+                                        ทำเพื่อการแนะนำตัวละครและบทเนื้อเรื่องในแรงจูงใจว่าทำไม ตัวประกอบนี้ถึงได้
+                                        มีมุมมองแบบนี้
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                    <!-- End1 -->
+                    <hr>
+                    <article class="media notification is-info " id="deleata1">
+                        <figure class="media-left">
+                            <p class="image is-64x64">
+                                <img src="https://kbimages1-a.akamaihd.net/174970b1-7e87-4009-94c6-d5d3c257e3b9/353/569/90/False/NbupTrNePjKb8t3h3NDtmA.jpg"
+                                    style="height: 80px;">
+                            </p>
+                        </figure>
+                        <div class="media-content">
+                            <div class="content">
+                                <p>
+                                    <strong>คนเหงา </strong> <small>@คนเหงา</small> <small>31m</small>
+                                    <br>
+                                    สนุกดีครับ ตอนแรกก็ไม่ได้สนุกอะไรหรอกครับ
+                                    เนื้อเรื่องค่อนข้างฟาร์มแต่พอมีตัวละครที่มีความสัมพันธ์
+                                    ปมของเรื่องมีมากมายทำให้อยากรู้
+                                    เป็นนิสัยพวกชอบขี้เจือกด้วยสิผม
+                                </p>
+                            </div>
+                            <nav class="level is-mobile">
+                                <div class="level-left">
+                                    <a class="level-item" href="https://www.facebook.com/คนเหงา-103116327697306/"
+                                        target="_blank">
+                                        <span class="icon is-small"><i class="fas fa-reply"></i></span>
+                                    </a>
+                                    <a class="level-item">
+                                        <span class="icon is-small"><i class="fas fa-retweet"></i></span>
+                                    </a>
+                                    <a class="level-item" href="https://www.youtube.com/c/คนเหงา" target="_blank">
+                                        <span class="icon is-small"><i class="fas fa-heart"></i></span>
+                                    </a>
+                                </div>
+                            </nav>
+                        </div>
+                        <div class="media-right">
+                            <button class="delete" id="deletes"></button>
+                        </div>
+                    </article>
+                </div>
+                <!-- End div1 -->
+                <br>
+                <div class="div2">
+                    <nav class="breadcrumb notification is-white" aria-label="breadcrumbs">
+                        <ul>
+                            <li><a onclick="topFunction()">หน้าแรก</a></li>
+                            <li><a onclick="bomFunction2()">ตัวละคร</a></li>
+                            <li><a href="#">แผนผังตระกูล</a></li>
+                            <li><a href="#" >เผ่าพันธุ์</a></li>
+                            <li><a href="#" >ประเภทวิญญาณอสูร</a></li>
+                            <li><a href="#" >ระดับพลัง</a></li>
+                        </ul>
+                    </nav>
+
+                    <div class="row">
+                        <div class="tile is-ancestor">
+                            <div class="tile is-4 is-vertical is-parent">
+                                <div class="tile is-child box">
+                                    <p class="title" style="color: #111;">หานเซิ่น</p>
+                                    <p>ตัวละครเอกในเนื้อเรื่องนิยาย บุคคลิกค่อนข้างฉลาด แต่ด้วยสถานะยากจน
+                                        ทำให้ต้องดิ้นรนชีวิตในการเก็บจีโนพ้อย แต่ชีวิตค่อนข้าง
+                                        น่าผิดหวังเพราะดันแต่มีศัตรูทุกแห่งหน จากหนุ่มที่จิตใจดีงามแต่ดันถูกหมายชีวิต
+                                        ต้องทำให้ตัวเองแข็งเกร่งเพื่อยืนหยัด</p>
+                                </div>
+                                <div class="tile is-child box">
+                                    <p class="title" style="color: #111;">ลักษณะนิสัย</p>
+                                    <p>นิสัยดี เป็นกันเอง มีบุคคลิกคล้าย ๆ ที่มุ่งมั่นเอาจริงเอาจังกับการฝึกฝน บ้าการฝึกฝน ค่อนข้างหาความรู้เข้าใส่ตัวเองเสมอ เป็นคนที่ระมัดระวังตัวเองอยู่เสมอ ค่อนข้างรักเพื่อนหรือสหายในครอบครัว  </p>
+                                </div>
+                            </div>
+                            <div class="tile is-parent">
+                                <div class="tile is-child box">
+                                    <p class="title" style="color: #111;">ประวัติ</p>
+                                    <p style="text-align: left;"><b>หานเซิ่น : </b>หานเซิ่น เข้ามาในก็อตแซงชัวรี่ ตั้งแต่อายุ 16 ปี เรียนจบจากโรงเรียนรัฐบาล สิ่งที่เรียนมีแต่วิชาการต่อสู้พื้นฐานที่ทุกคนรู้อยู่แล้ว หานเซิ่นทำได้เพียงแค่ไล่ล่าวิญญาณอสูรขั้นต่ำเท่านั้น หานเซิ่นเข้ามาในก็อตแซงชัวรี่ได้เผลอไปเอาดาบแทงก้นซินสเวียน ทำให้เซินเทียนจื่อ โมโหมาก
+                                        ทำผู้มีอิทธิผลต่าง ๆ ในเมืองสตีลอาเมอร์ ไม่พอใจกัน ทำให้หานเซิ่นโดดเดี่ยว แต่ด้วยความโชดดี เค้าได้รับเกาะสีทองจาก ด้วงทมิฬเลือดศักดิ์สิทธิ์ ทำให้เค้าสามารถไต้เต้า ระดับความแข็งเกร่งของมนุษย์ ให้อยู่จุดสูงสุดได้ ความโชดดีนี้มันอะไรกัน !</p>
+                                    <p style="text-align: left;"><b>ดอลล่า : </b>คือ บุคคลิกอีกคนที่หานเซิ่นจงใจใช้เนื่องจาก ตอนแรกหานเซิ่นต้องการจะขโมยวิญญาณอสูรเซินเทียนจื่อ ทำให้เซินเทียนจื่อโมโหมากตามไล่ล่าบุคคลผู้ชื่อ ดอลล่า แต่เนื่องจากไม่สามารถหาได้ว่าใครคือ ดอลล่าทำให้เซินเทียนจื่อ
+                                         ไม่คิดจะไล่ตาม หลังจากนั้นหานเซิ่นก็ใช้ดอลล่าเป็นบุคคลในการสร้างชื่อเสียงให้กับตัวเองแบบเงียบ ๆ โดยให้ดอลล่าแข่งขันต่าง ๆ ไม่ว่าจะเป็นการแข่งขันสำหรับ 1 ใน 10 อันดับก็อตแซงชัวรี่ การแข่งขันแต่ละเขต ร่วมถึงสร้างชื่อเสียงให้กับเผ่ามนุษย์เป็นอย่างมาก</p>
+                                    </p>
+                                    <p style="text-align: left;"><b>เผ่าพันธุ์ : </b>มนุษย์
+                                   </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End หานเซิ่น -->
+                    
+
+
+
+
+
+
+                </div>
+                <!-- End div2 -->
+
+
+
+
+            </div>
+        </div>
+
+        <!-- Hero footer: will stick at the bottom -->
+        <div class="hero-foot">
+            <nav class="tabs">
+                <div class="container">
+                    <ul>
+                        <li class="is-active"><a>เครดิต คนเหงา</a></li>
+                        <li><a>โดเนท : 085-596-3041 </a></li>
+                        <li><a href="https://www.facebook.com/คนเหงา-103116327697306/" target="_blank">Facebook : คนเหงา</a></li>
+                        <!-- <li><a>Elements</a></li> -->
+                        <!-- <li><a>Components</a></li> -->
+                        <!-- <li><a>Layout</a></li> -->
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+
+    </section>
+
+</body>
+
+</html>
+
+<script>
+    jQuery(function () {
+        jQuery("#deletes").click(function () {
+            document.getElementById("deleata1").style.display = 'none';
+        });
+    });
+</script>
+
+
+
+<!-- ห้ามลาก ห้าม Copy A V C -->
+<script language="JavaScript1.2">
+    function disableselect(e) {
+        return false
+    }
+    function reEnable() {
+        return true
+    }
+    //if IE4+
+    document.onselectstart = new Function("return false")
+    //if NS6
+    if (window.sidebar) {
+        document.onmousedown = disableselect
+        document.onclick = reEnable
+    }
+</script>
+<script language=JavaScript>
+    // let message = "Function Disabled!";
+    ///////////////////////////////////
+    function clickIE() {
+        if (document.all) {
+            // alert(message);
+            return false;
+        }
+    }
+    // ห้ามคลิกขวา
+    function clickNS(e) {
+        if (document.layers || (document.getElementById && !document.all)) {
+            if (e.which == 2 || e.which == 3) {
+                // alert(message);
+                return false;
+            }
+        }
+    }
+    if (document.layers) {
+        document.captureEvents(Event.MOUSEDOWN);
+        document.onmousedown = clickNS;
+    } else {
+        document.onmouseup = clickNS;
+        document.oncontextmenu = clickIE;
+    }
+    document.oncontextmenu = new Function("return false")
+    //
+</script>
+
+<script>
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        $('div.div2').click(function () {
+            $('html, body').animate({
+                scrollTop: $("div.div0").offset().top
+            }, 200)
+        });
+    }
+    function bomFunction() {
+        $('div.div0').click(function () {
+            $('html, body').animate({
+                scrollTop: $("div.div2").offset().top
+            }, 200)
+        });
+    }
+    function bomFunction2() {
+        $('div.div2').click(function () {
+            $('html, body').animate({
+                scrollTop: $("div.div2").offset().top
+            }, 200)
+        });
+    }
+
+</script>
+
+<!-- scrollbar styling -->
+<style scoped>
+    body::-webkit-scrollbar {
+        background-color: #fff;
+        width: 16px
+    }
+
+    /* background of the scrollbar except button or resizer */
+    body::-webkit-scrollbar-track {
+        background-color: #fff
+    }
+
+    /* scrollbar itself */
+    body::-webkit-scrollbar-thumb {
+        background-color: #242627;
+        border-radius: 16px;
+        border: 4px solid #fff
+    }
+
+    /* set button(top and bottom of the scrollbar) */
+    body::-webkit-scrollbar-button {
+        display: none
+    }
+</style>
+
+<!-- Sweetalert2 -->
+<script>
+    const Toast = Swal.mixin({
+        toast: true,
+        position: 'top-end',
+        showConfirmButton: false,
+        timer: 2000,
+        timerProgressBar: true,
+        onOpen: (toast) => {
+            toast.addEventListener('mouseenter', Swal.stopTimer)
+            toast.addEventListener('mouseleave', Swal.resumeTimer)
+        }
+    })
+    Toast.fire({
+        icon: 'success',
+        title: 'ยินดีต้อนรับเข้าสู่ WebSite Super God Gene'
+    });
+</script>
